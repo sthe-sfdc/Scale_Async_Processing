@@ -1,18 +1,18 @@
-# Salesforce DX Project: Next Steps
+# 🚀 Scale Asynchronous Processing with Apex, Platform Events & More
+### Dreamforce 2025 | Presented by Sai
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This repository contains sample code, patterns, and resources from my Dreamforce 2025 session — **“Scale Asynchronous Processing with Apex, Platform Events & More.”**  
+The session explores how to design robust, scalable, and efficient asynchronous architectures on the Salesforce Platform.
 
-## How Do You Plan to Deploy Your Changes?
+---
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 🎯 Overview
 
-## Configure Your Salesforce DX Project
+Modern Salesforce implementations often face challenges around data volume, transaction limits, and integration scalability.  
+This session demonstrates practical strategies to **scale asynchronous operations**, using tools such as:
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- **Apex Queueables and Platform Events** for decoupled communication
+- **Event-Driven Architecture (EDA)** patterns
+- **Error handling, retries, and observability best practices**
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+---
